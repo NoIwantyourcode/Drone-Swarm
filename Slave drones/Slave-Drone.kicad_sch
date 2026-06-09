@@ -12359,7 +12359,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ESP32-S3-MINI-1-N8:XCVR_ESP32-S3-MINI-1-N8"
+		(property "Footprint" "footprint-JLC:BULETM-SMD_ESP32-S3-MINI-1-N8"
 			(at 167.64 119.38 0)
 			(hide yes)
 			(show_name no)
