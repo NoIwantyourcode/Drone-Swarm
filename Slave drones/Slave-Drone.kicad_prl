@@ -126,18 +126,6 @@
   "project": {
     "files": [
       {
-        "name": "Slave-Drone.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": false,
-          "pos_x": -55,
-          "pos_y": 363,
-          "size_x": 2880,
-          "size_y": 1836
-        }
-      },
-      {
         "name": "Slave-Drone.kicad_pcb",
         "open": false,
         "window": {
