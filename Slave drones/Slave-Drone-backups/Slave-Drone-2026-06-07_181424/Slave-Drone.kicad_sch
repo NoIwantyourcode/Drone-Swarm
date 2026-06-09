@@ -4959,6 +4959,12 @@
 		(uuid "2e0da6bf-8497-43c4-a6c1-5fcac75ae1eb")
 	)
 	(junction
+		(at 104.14 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "355ded59-9c83-43ab-a660-7cb4a95f8b84")
+	)
+	(junction
 		(at 50.8 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4986,7 +4992,7 @@
 		(at 104.14 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "609748cb-ff6a-4a83-a8e6-5bd1513bda9a")
+		(uuid "55634813-c192-49c2-bc28-3b84f60ac535")
 	)
 	(junction
 		(at 120.65 64.77)
@@ -5245,6 +5251,16 @@
 			(type default)
 		)
 		(uuid "14c3f434-f47c-4893-ad3a-bfb6e254bd2c")
+	)
+	(wire
+		(pts
+			(xy 106.68 170.18) (xy 104.14 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1675e0cc-eec4-4f11-8a35-cc9e3a44b53b")
 	)
 	(wire
 		(pts
@@ -5525,6 +5541,16 @@
 			(type default)
 		)
 		(uuid "3c6b1b12-a8b3-4c79-b23a-a26e1f62d55e")
+	)
+	(wire
+		(pts
+			(xy 104.14 165.1) (xy 104.14 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e0d97a9-70e7-46bf-9e85-3a6aa43ad7d1")
 	)
 	(wire
 		(pts
@@ -5858,16 +5884,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 165.1) (xy 104.14 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "622988c3-67ce-4789-8738-4c3482c153a4")
-	)
-	(wire
-		(pts
 			(xy 63.5 29.21) (xy 72.39 29.21)
 		)
 		(stroke
@@ -5955,6 +5971,16 @@
 			(type default)
 		)
 		(uuid "6f481f06-1427-42fd-ab5c-002f094ff546")
+	)
+	(wire
+		(pts
+			(xy 104.14 170.18) (xy 95.25 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fc6ecbb-58f8-413a-bac6-b9098f45a0c3")
 	)
 	(wire
 		(pts
@@ -6308,16 +6334,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 165.1) (xy 106.68 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5e70e9b-bc9e-4277-9768-8e2a14bb83ff")
-	)
-	(wire
-		(pts
 			(xy 213.36 121.92) (xy 213.36 125.73)
 		)
 		(stroke
@@ -6355,16 +6371,6 @@
 			(type default)
 		)
 		(uuid "ae0725e0-1219-4e9d-b60b-dd1d9f8ca598")
-	)
-	(wire
-		(pts
-			(xy 95.25 170.18) (xy 104.14 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af112489-8fcd-440c-ac72-9f6a9b6b5a35")
 	)
 	(wire
 		(pts
@@ -6665,6 +6671,16 @@
 			(type default)
 		)
 		(uuid "e4b69e8a-8451-47ae-a998-68619f4ce678")
+	)
+	(wire
+		(pts
+			(xy 104.14 165.1) (xy 106.68 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e58b0b06-f433-4405-93f4-cb7f8915b666")
 	)
 	(wire
 		(pts
@@ -8539,10 +8555,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "f657ac46-3066-420d-85ae-f45f83b534f9")
+			(uuid "f657ac46-3066-420d-85ae-f45f83b534f8")
 		)
 		(pin "1"
-			(uuid "eb3af027-3463-40ed-a739-b0bcc7ceed60")
+			(uuid "eb3af027-3463-40ed-a739-b0bcc7ceed5f")
 		)
 		(instances
 			(project "Slave-Drone"
@@ -10960,10 +10976,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "f657ac46-3066-420d-85ae-f45f83b534fa")
+			(uuid "f657ac46-3066-420d-85ae-f45f83b534f8")
 		)
 		(pin "1"
-			(uuid "eb3af027-3463-40ed-a739-b0bcc7ceed61")
+			(uuid "eb3af027-3463-40ed-a739-b0bcc7ceed5f")
 		)
 		(instances
 			(project "Slave-Drone"
@@ -11040,10 +11056,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "f657ac46-3066-420d-85ae-f45f83b534fb")
+			(uuid "f657ac46-3066-420d-85ae-f45f83b534f8")
 		)
 		(pin "1"
-			(uuid "eb3af027-3463-40ed-a739-b0bcc7ceed62")
+			(uuid "eb3af027-3463-40ed-a739-b0bcc7ceed5f")
 		)
 		(instances
 			(project "Slave-Drone"
@@ -12359,7 +12375,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ESP32-S3-MINI-1-N8:XCVR_ESP32-S3-MINI-1-N8"
+		(property "Footprint" "footprint-JLC:BULETM-SMD_ESP32-S3-MINI-1-N8"
 			(at 167.64 119.38 0)
 			(hide yes)
 			(show_name no)
