@@ -1,0 +1,63 @@
+#include <SPI.h>
+#include <nRF24L01.h>
+#include <RF24.h>
+
+const int MOTOR_PIN = 4;      
+const int CE_PIN = 9;         
+const int CSN_PIN = 10;       
+
+RF24 radio(CE_PIN, CSN_PIN);
+const byte address[6] = "00001"; 
+
+struct PacketData {
+  byte throttle;
+  bool armSwitch; 
+};
+PacketData radioData;
+
+unsigned long lastSignalTime = 0;
+const unsigned long TIMEOUT_MS = 500; 
+bool isArmed = false;
+
+void setup() {
+  Serial.begin(115200);
+  
+  pinMode(MOTOR_PIN, OUTPUT);
+  analogWrite(MOTOR_PIN, 0); 
+
+  if (!radio.begin()) {
+    while (1); 
+  }
+  
+  radio.openReadingPipe(0, address);
+  radio.setPALevel(RF24_PA_LOW); 
+  radio.startListening();        
+}
+
+void loop() {
+  if (radio.available()) {
+    radio.read(&radioData, sizeof(PacketData));
+    lastSignalTime = millis(); 
+    
+    if (radioData.armSwitch && radioData.throttle < 10) {
+      isArmed = true; 
+    } else if (!radioData.armSwitch) {
+      isArmed = false; 
+    }
+
+    if (isArmed) {
+      analogWrite(MOTOR_PIN, radioData.throttle);
+      Serial.print("PWM: ");
+      Serial.println(radioData.throttle);
+    } else {
+      analogWrite(MOTOR_PIN, 0);
+      Serial.println("Locked");
+    }
+  }
+
+  if (millis() - lastSignalTime > TIMEOUT_MS) {
+    isArmed = false;
+    analogWrite(MOTOR_PIN, 0);
+    Serial.println("Timeout");
+  }
+}
