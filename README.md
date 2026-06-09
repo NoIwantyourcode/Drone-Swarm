@@ -25,3 +25,5 @@ I made this as it links to my passion in aviation and I think it is a great way 
 # Note for reviewer
 The PCB in my assembled view doesn't contain any 3D files for the components as freeCAD would not let me export the components it gathered from my raw PCB file.
 The board is also 4 layers and has components on both sides
+
+Lapse also wasn't working for a big part of the design so I wasn't really a record a ton. I only got the first ~1h20mins
