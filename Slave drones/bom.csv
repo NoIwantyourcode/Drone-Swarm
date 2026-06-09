@@ -1,4 +1,4 @@
-Slave Drone,,Total Price: 181.70,,,
+Slave Drone,,Total Price: 181.70,~196,,
 ,,,,,
 ,,,,,
 ,,,,,
@@ -22,17 +22,18 @@ Magnetometer,QMC5883P,https://jlcpcb.com/partdetail/QST-QMC5883P/C2847467,2,3.05
 SMD Push button,SW_Push,https://jlcpcb.com/partdetail/ALPSALPINE-SKRKAHE020/C202388,2,0.87,
 CW Motor,,https://www.aliexpress.com/item/1005006132824490.html?spm=a2g0o.productlist.main.2.212aff2f95brAt&algo_pvid=864db50a-1328-43a6-b676-29cede0c139a&algo_exp_id=864db50a-1328-43a6-b676-29cede0c139a-1&pdp_ext_f=%7B%22order%22%3A%22261%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21SGD%211.77%211.77%21%21%219.01%219.01%21%402101062a17808924297307257e98d1%2112000035905057478%21sea%21SG%214283275066%21ABX%211%210%21n_tag%3A-29910%3Bd%3A87fd47fe%3Bm03_new_user%3A-29895&curPageLogUid=64V8cZ9sQfzZ&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005006132824490%7C_p_origin_prod%3A,4,8.13,
 CCW Motor,,https://www.aliexpress.com/item/1005006132824490.html?spm=a2g0o.productlist.main.2.212aff2f95brAt&algo_pvid=864db50a-1328-43a6-b676-29cede0c139a&algo_exp_id=864db50a-1328-43a6-b676-29cede0c139a-1&pdp_ext_f=%7B%22order%22%3A%22261%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21SGD%211.77%211.77%21%21%219.01%219.01%21%402101062a17808924297307257e98d1%2112000035905057478%21sea%21SG%214283275066%21ABX%211%210%21n_tag%3A-29910%3Bd%3A87fd47fe%3Bm03_new_user%3A-29895&curPageLogUid=64V8cZ9sQfzZ&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005006132824490%7C_p_origin_prod%3A,4,8.24,
-Propellers,,,,,
+Propellers,,https://www.aliexpress.com/item/1005010272672023.html?spm=a2g0o.productlist.main.5.d15d1e00keMbtd&algo_pvid=37c0a5e2-2caa-4948-8dcb-86f4ff369b33&algo_exp_id=37c0a5e2-2caa-4948-8dcb-86f4ff369b33-4&pdp_ext_f=%7B%22order%22%3A%22393%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21SGD%213.05%212.26%21%21%2115.60%2111.58%21%402102f22c17810057179958199ef31c%2112000051737045032%21sea%21SG%214283275066%21ABX%211%210%21n_tag%3A-29910%3Bd%3A6b7a15f9%3Bm03_new_user%3A-29895%3BpisId%3A5000000207332279&curPageLogUid=zWIs6ZE8swP7&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005010272672023%7C_p_origin_prod%3A,2,5,
+Battery,,https://www.aliexpress.com/item/1005008217717191.html?spm=a2g0o.productlist.main.8.b928W9IjW9Ij3r&aem_p4p_detail=2026060904522416334150949013540000129110&algo_pvid=2a51b097-efc2-4eb7-aa0b-7a686518e3e5&algo_exp_id=2a51b097-efc2-4eb7-aa0b-7a686518e3e5-7&pdp_ext_f=%7B%22order%22%3A%22460%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21SGD%2115.83%215.68%21%21%2180.95%2129.07%21%40212a70c117810059446642287e850d%2112000044268208542%21sea%21SG%214283275066%21ABX%211%210%21n_tag%3A-29910%3Bd%3A6b7a15f9%3Bm03_new_user%3A-29895%3BpisId%3A5000000207332279&curPageLogUid=63gMUGmoaHrD&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005008217717191%7C_p_origin_prod%3A&search_p4p_id=2026060904522416334150949013540000129110_2,2,10,
 ,,,Total Parts price,42.277,
 ,,,Total Price (PCBA fees incl),165.58,
-,,,Total pric with shipping,169.13,
+,,,Total pric with shipping,184.13,
 Ground Station,,,,,
 ,,,,,
 ,,,,,
 ,,,,,
 Component,Value,Product link,Qty,Total Price ($),Notes
-ESP32-S3,,,,12.56,Communicates to all the drones simoultaneously
+ESP32-S3,,https://www.aliexpress.com/item/1005011858962686.html?src=google&src=google&albch=shopping&acnt=615-992-9880&isdl=y&slnk=&plac=&mtctp=&albbt=Google_7_shopping&aff_platform=google&aff_short_key=_oFgTQeV&gclsrc=aw.ds&albagn=888888&ds_e_adid=&ds_e_matchtype=&ds_e_device=c&ds_e_network=x&ds_e_product_group_id=&ds_e_product_id=en1005011858962686&ds_e_product_merchant_id=5510827653&ds_e_product_country=SG&ds_e_product_language=en&ds_e_product_channel=online&ds_e_product_store_id=&ds_url_v=2&albcp=23872084072&albag=&isSmbAutoCall=false&needSmbHouyi=false&traffic_server_nav=true&gad_source=1&gad_campaignid=23872092604&gbraid=0AAAAA_TvRHq0iinz6J6FbYK4og39A6XEd&gclid=CjwKCAjw857RBhAgEiwAI-1yKMJogL8n96fb2aE49r85XkuDSrvhYFULOwFcEzYBoUZoeVbHMoluxhoCmBIQAvD_BwE,1,12.5,Communicates to all the drones simoultaneously
 3D print case,,,,0,
 ,,,,,
 ,,,,,
-,,,Total Price of all components:,181.69,
+,,,Total Price of all components:,~196,
