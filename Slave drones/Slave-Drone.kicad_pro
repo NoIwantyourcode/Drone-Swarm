@@ -671,7 +671,7 @@
         "uuid": "60a872ad-1a81-490b-a8d1-746d4d33983a"
       }
     ],
-    "used_designators": "#PWR24-26,D1-4,D6-7,MOSFET1,MOSFET4,R1,R4,R18,C2-3",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
