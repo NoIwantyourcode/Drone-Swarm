@@ -1,8 +1,12 @@
 # Drone Swarm
 
-This is a group of 2 drones which are autonoumously controlled by a ground controller to fly in specific patterns, the drone swarm will have 2 drones (this is expandable) and a ground controller, They ground controller will supply instructions to the drone on how to fly and where to fly, The drones will you use their Accelerometers, Gyroscopes and magnetometers to carry out these instructions and fly in a pattern
+This is a group of 2 drones which are autonoumously controlled by a ground controller to fly in specific patterns, the drone swarm will have 2 drones (this is expandable) and a ground controller, They ground controller will supply instructions to the drone on how to fly and where to fly, The drones will you use their Accelerometers, Gyroscopes and magnetometers to carry out these instructions and fly in a pattern.
 
-# Why I made this
+# How does it work?
+
+The drones are individually controlled by an onboard flight controller, Each flight controller is connected to the ESP32-S3 ground station which supplies commands to the drones for them to perform it. The ground station recieves input data on the drones location, height and distance from each other from 2 phones, one under and one below which track the the drones. this allows the ground station to have accurate locations for the drones and direct them individually!
+
+# Why I made this?
 
 I made this as it links to my passion in aviation and I think it is a great way to get started with autonomous flight!
 
