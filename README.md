@@ -21,10 +21,10 @@ I made this as it links to my passion in aviation and I think it is a great way 
 <img width="1144" height="1249" alt="Screenshot 2026-06-09 202247" src="https://github.com/user-attachments/assets/b165dcf1-74bc-42ac-bf39-e81ed53cf22d" />
 
 # Drone frame
-<img width="1026" height="961" alt="Screenshot 2026-06-10 102537" src="https://github.com/user-attachments/assets/f6059bdc-3540-4dc2-a1d1-36a63acdd7e8" />
+<img width="1026" height="961" alt="Screenshot 2026-06-10 102537" src="https://github.com/user-attachments/assets/af2d47c8-a085-4b7b-9e79-24a63d60db90" />
 
 # Assembled view
-<img width="1680" height="1277" alt="Screenshot 2026-06-10 102524" src="https://github.com/user-attachments/assets/5b463748-ab2b-4217-bc5b-b3d8ec99bc16" />
+<img width="1680" height="1277" alt="Screenshot 2026-06-10 102524" src="https://github.com/user-attachments/assets/3b04ce50-7d2b-47ad-8b5c-6b01c6d08be4" />
 
 # Note for reviewer
 The PCB in my assembled view doesn't contain any 3D files for the components as freeCAD would not let me export the components it gathered from my raw PCB file.
