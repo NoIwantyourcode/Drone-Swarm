@@ -17,13 +17,15 @@ I made this as it links to my passion in aviation and I think it is a great way 
 <img width="1144" height="1249" alt="Screenshot 2026-06-09 202247" src="https://github.com/user-attachments/assets/b165dcf1-74bc-42ac-bf39-e81ed53cf22d" />
 
 # Drone frame
-<img width="1086" height="1113" alt="Screenshot 2026-06-09 202408" src="https://github.com/user-attachments/assets/2035dfae-4659-45ee-9762-e7e33965f81f" />
+<img width="1026" height="961" alt="Screenshot 2026-06-10 102537" src="https://github.com/user-attachments/assets/f6059bdc-3540-4dc2-a1d1-36a63acdd7e8" />
 
 # Assembled view
-<img width="1970" height="1242" alt="Screenshot 2026-06-09 202203" src="https://github.com/user-attachments/assets/362002d8-fc2d-4361-9825-8760a57e399b" />
+<img width="1680" height="1277" alt="Screenshot 2026-06-10 102524" src="https://github.com/user-attachments/assets/5b463748-ab2b-4217-bc5b-b3d8ec99bc16" />
 
 # Note for reviewer
 The PCB in my assembled view doesn't contain any 3D files for the components as freeCAD would not let me export the components it gathered from my raw PCB file.
 The board is also 4 layers and has components on both sides
 
 Lapse also wasn't working for a big part of the design so I wasn't really a record a ton. I only got the first ~1h20mins
+
+Using JLCPCB to 3D print my drone frame as it is in ABS, If I can't use JLC3DP I'll try to find someone through printing legion
