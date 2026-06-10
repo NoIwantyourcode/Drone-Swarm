@@ -41,12 +41,10 @@ void loop() {
   if (radio.available()) {
     radio.read(&radioData, sizeof(PacketData));
     lastSignalTime = millis(); 
-    
-    // Arming Sequence Guardrail
+
     if (radioData.armSwitch && radioData.throttle < 10 && radioData.droneX != -1) {
       isArmed = true; 
     } else if (!radioData.armSwitch || radioData.droneX == -1) {
-      // INSTANT SAFETY LOCK: If controller asks to disarm OR tracking fails
       isArmed = false; 
     }
 
@@ -64,7 +62,6 @@ void loop() {
     }
   }
 
-  // Radio Link Loss Watchdog
   if (millis() - lastSignalTime > TIMEOUT_MS) {
     isArmed = false;
     analogWrite(MOTOR_PIN, 0);

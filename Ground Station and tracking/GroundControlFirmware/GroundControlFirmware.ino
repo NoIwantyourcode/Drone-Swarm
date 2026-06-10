@@ -20,7 +20,7 @@ struct PacketData {
 PacketData radioData;
 
 unsigned long lastSerialTime = 0;
-const unsigned long SERIAL_TIMEOUT_MS = 100; // Drop data if PC lags
+const unsigned long SERIAL_TIMEOUT_MS = 100;
 
 void setup() {
   Serial.begin(115200);
@@ -38,7 +38,6 @@ void setup() {
 }
 
 void loop() {
-  // Check for fresh tracking data from the PC
   if (Serial.available() > 0) {
     String input = Serial.readStringUntil('\n');
     int firstComma = input.indexOf(',');
@@ -52,7 +51,6 @@ void loop() {
     }
   }
 
-  // SAFETY WATCHDOG: If PC stops talking, invalidate coordinates
   if (millis() - lastSerialTime > SERIAL_TIMEOUT_MS) {
     radioData.droneX = -1;
     radioData.droneY = -1;

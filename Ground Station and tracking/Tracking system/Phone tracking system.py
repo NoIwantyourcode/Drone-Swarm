@@ -27,7 +27,6 @@ while True:
 
     drone_x, drone_y, drone_z = -1, -1, -1
 
-    # Process Floor Camera (X and Y)
     gray_f = cv2.cvtColor(frame_floor, cv2.COLOR_BGR2GRAY)
     results_f = detector.detect(gray_f)
     if results_f:
@@ -45,7 +44,6 @@ while True:
     else:
         print("WARNING: Tracking lost on one or both cameras!")
 
-    # Broadcast coordinates
     payload = f"{drone_x},{drone_y},{drone_z}\n"
     ser.write(payload.encode('utf-8'))
 
