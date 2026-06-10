@@ -12,6 +12,9 @@ const byte address[6] = "00001";
 struct PacketData {
   byte throttle;
   bool armSwitch; 
+  int droneX;     
+  int droneY;     
+  int droneZ;     
 };
 PacketData radioData;
 
@@ -39,25 +42,32 @@ void loop() {
     radio.read(&radioData, sizeof(PacketData));
     lastSignalTime = millis(); 
     
-    if (radioData.armSwitch && radioData.throttle < 10) {
+    // Arming Sequence Guardrail
+    if (radioData.armSwitch && radioData.throttle < 10 && radioData.droneX != -1) {
       isArmed = true; 
-    } else if (!radioData.armSwitch) {
+    } else if (!radioData.armSwitch || radioData.droneX == -1) {
+      // INSTANT SAFETY LOCK: If controller asks to disarm OR tracking fails
       isArmed = false; 
     }
 
     if (isArmed) {
       analogWrite(MOTOR_PIN, radioData.throttle);
-      Serial.print("PWM: ");
-      Serial.println(radioData.throttle);
+      Serial.print("Flight Normal | Z-Height: ");
+      Serial.println(radioData.droneZ);
     } else {
       analogWrite(MOTOR_PIN, 0);
-      Serial.println("Locked");
+      if (radioData.droneX == -1) {
+        Serial.println("SAFETY LOCKED: Tracking Lost or PC Offline!");
+      } else {
+        Serial.println("Locked: Unarmed");
+      }
     }
   }
 
+  // Radio Link Loss Watchdog
   if (millis() - lastSignalTime > TIMEOUT_MS) {
     isArmed = false;
     analogWrite(MOTOR_PIN, 0);
-    Serial.println("Timeout");
+    Serial.println("TIMEOUT: Radio Link Dropped!");
   }
 }
