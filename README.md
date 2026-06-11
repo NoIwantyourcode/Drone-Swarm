@@ -20,8 +20,8 @@ I made this as it links to my passion in aviation and I think it is a great way 
 
 <img width="1736" height="860" alt="Blank diagram" src="https://github.com/user-attachments/assets/83841301-f9f0-4840-87b3-276260b5d4c7" />
 
-Dotted lines represent Non-physical connections (Bluetooth, wifi, ESP-NOW)
-Solid lines represent physical connections (cables)
+1. Dotted lines represent Non-physical connections (Bluetooth, wifi, ESP-NOW)
+2. Solid lines represent physical connections (cables)
 
 # Schematics
 <img width="2160" height="1533" alt="Screenshot 2026-06-09 202325" src="https://github.com/user-attachments/assets/557283d4-4eaf-4d81-bb28-c01b16bdfae1" />
