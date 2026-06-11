@@ -6,6 +6,12 @@ This is a group of 2 drones which are autonoumously controlled by a ground contr
 
 The drones are individually controlled by an onboard flight controller, Each flight controller is connected to the ESP32-S3 ground station which supplies commands to the drones for them to perform it. The ground station recieves input data on the drones location, height and distance from each other from 2 phones, one under and one below which track the the drones. this allows the ground station to have accurate locations for the drones and direct them individually!
 
+The ground station is currently a bare ESP32-S3 DevBoard which is connected to my computer, It features nothing special but it does connect to both drones in a shared connection to supply commands to them. The commands have id's so so the both drones will not follow the same command. There is no case to increase connection strength as the connection won't be blocked by the plastic
+
+# How is it powered
+
+The ground station is connected to my computer and that how it recieves power, The dones have an onboard Lithium-Ion battery at 3.7v to power them for roughly 4 -5 minutes of flght time!
+
 # Why I made this?
 
 I made this as it links to my passion in aviation and I think it is a great way to get started with autonomous flight!
