@@ -12,6 +12,13 @@ The ground station is currently a bare ESP32-S3 DevBoard which is connected to m
 
 The ground station is connected to my computer and that how it recieves power, The dones have an onboard Lithium-Ion battery at 3.7v to power them for roughly 4 -5 minutes of flght time!
 
+# Connection diagram!
+
+<img width="1736" height="860" alt="Blank diagram" src="https://github.com/user-attachments/assets/83841301-f9f0-4840-87b3-276260b5d4c7" />
+
+Dotted lines represent Non-physical connections (Bluetooth, wifi, ESP-NOW)
+Solid lines represent physical connections (cables)
+
 # Why I made this?
 
 I made this as it links to my passion in aviation and I think it is a great way to get started with autonomous flight!
