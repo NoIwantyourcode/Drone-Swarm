@@ -76,7 +76,32 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "extra_footprint|101760000|67210000|8db039da-9842-42e5-83dd-911e4d8b856b|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "extra_footprint|101760000|92710000|591b611f-0c78-4bfc-872b-158d6087b68c|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "extra_footprint|127260000|67210000|47caba0d-196e-47f6-8bcd-8da6145e7e2d|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "extra_footprint|127260000|92710000|5b038d00-f0ef-40f8-a57a-4e7c9f50d3f3|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "missing_courtyard|121394833|79735412|e35e46ff-2972-43a9-a8d9-5fd73960db97|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "net_conflict|114280000|71775019|d885e92c-e784-4d58-965d-a5d154f21b4d|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -111,7 +136,7 @@
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "warning",
         "missing_footprint": "warning",
         "missing_tuning_profile": "warning",
         "net_conflict": "warning",
@@ -158,7 +183,7 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.2,
@@ -244,6 +269,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.2
         }
       ],
       "zones_allow_external_fillets": false
@@ -523,8 +552,8 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.4,
+        "via_drill": 0.2,
         "wire_width": 6
       }
     ],
