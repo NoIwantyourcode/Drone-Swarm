@@ -9214,7 +9214,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprint-JLC:QFN-24_L3.0-W3.0-P0.40-BL-EP"
+		(property "Footprint" "Sensor_Motion:InvenSense_QFN-24_3x3mm_P0.4mm"
 			(at 50.8 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -12137,7 +12137,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprint-JLC:LGA-16_L3.0-W3.0-P0.50-BL_SQ"
+		(property "Footprint" "footprints-QMC:QMC5883L_QST"
 			(at 118.11 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -12359,7 +12359,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprint-JLC:BULETM-SMD_ESP32-S3-MINI-1-N8"
+		(property "Footprint" "esp32:XCVR_ESP32-S3-MINI-1-N8"
 			(at 167.64 119.38 0)
 			(hide yes)
 			(show_name no)
