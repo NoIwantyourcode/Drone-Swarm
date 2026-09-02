@@ -1,6 +1,4 @@
-Note: As of 9th June 2026, I have only been able to record one of my sessions with lapse, others been journaled, I confirm that the time spent on this project is as accurate as I am able to provide
-
-**Total time: 11.5 hours**
+**Total time: 65.5 hours**
 
 # June 7th 2026 - I completed the schematics: 3 hours
 
@@ -47,16 +45,25 @@ here is an image of my drones new frame:
 <img width="760" height="642" alt="image" src="https://github.com/user-attachments/assets/3dfda1ec-3c19-4d82-801b-55eafe3812e0" />
 
 However, sadly after assembling the 2nd drone which would fly, while testing it I forgot to turn off my ceiling fan and it flew into it, it was broken into pieces
+<img width="3000" height="4000" alt="IMG_20260706_120405" src="https://github.com/user-attachments/assets/c6313b41-3b60-4d4f-86e2-b7f754f89329" />
+
 
 # July 21st to July 31st - 10 hours - Drone broken once again!
 
-So, When I was coming back from outpost + open sauce, American baggage handling kinda slammed my suitcase super hard and broke the drone inside out of it which was the only one that was working, after coming back I ordered some spare parts and attempted to fix my drone however it didn't work I tried my best to see if I could even get it fly but it was to no avail
+So, When I was coming back from outpost + open sauce, American baggage handling kinda slammed my suitcase super hard and broke the drone inside out of it which was the only one that was working, after coming back I ordered some spare parts and attempted to fix my drone however it didn't work I tried my best to see if I could even get it to fly but it was to no avail
+
+heres an image of my broken drone
+<img width="3000" height="4000" alt="IMG_20260706_120405" src="https://github.com/user-attachments/assets/c6313b41-3b60-4d4f-86e2-b7f754f89329" />
+# note that this image has been reused
 
 # August 1st to August 10th - 15 hours - Different software
 
 I tried different software like Betaflight and ESP-Drone but even they didn't work as well, I am trying my best and will take everything I learnt from this to design my own firmware
 
-Once I tried to integrate my findings into my own software, I realised that the problem may be with my repair parts as the drone was not powerful enough to fly
+Once I tried to integrate my findings into my own software, I think that the problem may be with my repair parts as the drone was not powerful enough:
+
+But for now I am pretty tired so I will be taking a short break before I try to make my drone work once again
+
 
 # August 18th to 28th - 2 hours - New spare parts
 
