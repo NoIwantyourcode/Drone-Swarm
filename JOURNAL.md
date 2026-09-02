@@ -32,4 +32,40 @@ I also made the firmware today for both the drones however it is an early versio
 Pictues of the board from FreeCAD, It wouldn't let me export components for some reason:
 <img width="1354" height="1344" alt="image" src="https://github.com/user-attachments/assets/9d9c1bfb-46a0-4f13-9b31-efbd87c7a99b" />
 
+# NOTE: FROM THIS POINT ONWARDS ALL MY JOURNALS MAY NOT BE THE MOST ACCURATE AS I AM RECALLING FROM MEMORY, HOWEVER I DID WORK ON SAID PROJECT NEARLY EVERYDAY - HENCE I WILL BE JOURNALLING IN 10 - 11 DAY INCREMENTS, I WAS NOT ABLE TO TAKE MANY PICTURES BECAUSE I WAS TOO BUSY TRYING TO MAKE THE DRONE WORK
+
+# June 19th - June 29th - 20 HOURS - Tested FCU
+
+This week I tested my drone FCU to see if all the sensors work and tuned the software to work with the MPU while I wait for the rest of my parts to arrive.
+I ended up with code which could accurately read my Gyro, Accelerometer and magnetometer
+
+# June 29 - July 9th - 22 Hours - Assembled and made the drone work
+
+This week I recieved all my parts and started to fully assemble the drone, along the way I realised that my drone frame was a little too heavy and I wasn't able to make the drone work, After I went back and changed the drone frame to be lighter and 3D printed it on my 3D printer I was very delighted that my drones worked!
+
+here is an image of my drones new frame:
+<img width="760" height="642" alt="image" src="https://github.com/user-attachments/assets/3dfda1ec-3c19-4d82-801b-55eafe3812e0" />
+
+However, sadly after assembling the 2nd drone which would fly, while testing it I forgot to turn off my ceiling fan and it flew into it, it was broken into pieces
+
+# July 21st to July 31st - 10 hours - Drone broken once again!
+
+So, When I was coming back from outpost + open sauce, American baggage handling kinda slammed my suitcase super hard and broke the drone inside out of it which was the only one that was working, after coming back I ordered some spare parts and attempted to fix my drone however it didn't work I tried my best to see if I could even get it fly but it was to no avail
+
+# August 1st to August 10th - 15 hours - Different software
+
+I tried different software like Betaflight and ESP-Drone but even they didn't work as well, I am trying my best and will take everything I learnt from this to design my own firmware
+
+Once I tried to integrate my findings into my own software, I realised that the problem may be with my repair parts as the drone was not powerful enough to fly
+
+# August 18th to 28th - 2 hours - New spare parts
+
+I refined my software a little more to integrate failsafes while I wait for more spare parts to arrive, I changed the motor back to the original models as I found that the ones I currently have are very inefficient and not powerful enough
+
+These are the spare parts I ordered:
+<img width="1205" height="612" alt="image" src="https://github.com/user-attachments/assets/f46030ea-bf3a-4212-b8c7-40cda43315ae" />
+
+
+
+
 
