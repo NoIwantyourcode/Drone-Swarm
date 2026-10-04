@@ -1,4 +1,4 @@
-**Total time: 65.5 hours**
+**Total time: 70.5 hours**
 
 # June 7th 2026 - I completed the schematics: 3 hours
 
@@ -71,6 +71,12 @@ I refined my software a little more to integrate failsafes while I wait for more
 
 These are the spare parts I ordered:
 <img width="1205" height="612" alt="image" src="https://github.com/user-attachments/assets/f46030ea-bf3a-4212-b8c7-40cda43315ae" />
+
+# September 20th - 5 hours
+
+I finally got the drone to work by swapping in the motors for a new pair, the problem were the motors all along as they were far too inefficient and did not deliver enough power.
+here is a picture of the drone with the swapped out motors:
+<img width="3472" height="4624" alt="drone" src="https://github.com/user-attachments/assets/bf246149-26de-4b6b-9ecd-d788485b884e" />
 
 
 
