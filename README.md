@@ -42,6 +42,10 @@ I made this as it links to my passion in aviation and I think it is a great way 
 # Fully assembled picture
 <img width="3472" height="4624" alt="IMG_20260902_173520" src="https://github.com/user-attachments/assets/726a855f-3557-4040-b885-bef7ba895231" />
 
+# Demo link!
+
+Heres the link to a demo video: [https://youtube.com/shorts/X6EJljXOPJc?feature=share](https://youtube.com/shorts/X6EJljXOPJc?feature=share)
+
 # Note for reviewer
 The PCB in my assembled view doesn't contain any 3D files for the components as freeCAD would not let me export the components it gathered from my raw PCB file.
 The board is also 4 layers and has components on both sides
